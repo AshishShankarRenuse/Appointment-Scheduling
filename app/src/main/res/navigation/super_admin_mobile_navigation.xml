@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sup_mobile_navigation"
+    app:startDestination="@+id/nav_welcome">
+
+    <fragment
+        android:id="@+id/nav_welcome"
+        android:name="com.example.appointmentscheduling.superAdmin.HomeFragment"
+        android:label="Welcome SuperAdmin"
+        tools:layout="@layout/super_admin_home_fragment" />
+
+    <fragment
+        android:id="@+id/nav_createsch"
+        android:name="com.example.appointmentscheduling.superAdmin.CreateSchedule"
+        android:label="Create Schedule"
+        tools:layout="@layout/super_admin_create_schedule" />
+
+    <fragment
+        android:id="@+id/nav_viewsch"
+        android:name="com.example.appointmentscheduling.superAdmin.ViewSchedule"
+        android:label="View Schedule"
+        tools:layout="@layout/super_admin_view_schedule" />
+
+    <fragment
+        android:id="@+id/nav_notification"
+        android:name="com.example.appointmentscheduling.superAdmin.NotificationFC"
+        android:label="FC/ARC Requests"
+        tools:layout="@layout/super_admin_notification_fc" />
+
+    <fragment
+        android:id="@+id/nav_institute"
+        android:name="com.example.appointmentscheduling.superAdmin.ViewInstitutes"
+        android:label="All Institutes"
+        tools:layout="@layout/super_admin_view_institutes" />
+
+    <fragment
+        android:id="@+id/nav_admin_requests"
+        android:name="com.example.appointmentscheduling.superAdmin.AdminRequest"
+        android:label="Admin requests"
+        tools:layout="@layout/super_admin_request_admin" />
+
+    <fragment
+        android:id="@+id/nav_admin_accepted_centers"
+        android:name="com.example.appointmentscheduling.superAdmin.AcceptedCenters"
+        android:label="All Centers"
+        tools:layout="@layout/super_admin_accepted_centers" />
+
+</navigation>

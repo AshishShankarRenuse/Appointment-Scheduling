@@ -1,0 +1,205 @@
+<resources>
+    <string name="app_name">Appointment Scheduling</string>
+    <string name="title_activity_draw">draw</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="ad_menu_apply_fc">Apply for FC</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_login">Login</string>
+    <string name="menu_admin_reg">Admin Registration</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_stud_reg">Student Registration</string>
+
+    <string name="heading1">Admin Registration</string>
+    <string name="instruction">Instructions :</string>
+    <string name="UID">Aadhar Number</string>
+    <string name="address">Full Address</string>
+    <string name="institute">Choose Institute</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="username">Username</string>
+    <string name="password">password</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="confirm_password">Confirm_password</string>
+    <string-array name="colleges_array">
+        <item>Choose Institute</item>
+        <item>Goverment Polytechic Pune</item>
+        <item>Goverment Polytechic Pune</item>
+        <item>Goverment Polytechic Pune</item>
+    </string-array>
+    <string name="title_activity_super_admin_draw">SuperAdminDraw</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_admin_draw">AdminDrawActivity</string>
+    <string name="title_activity_sup_adm_draw">SupAdmDrawActivity</string>
+
+    <string name="menu_createsch">Create Schedule</string>
+    <string name="menu_viewsch">View Schedule</string>
+    <string name="menu_notification">Admin Notification</string>
+    <string name="menu_institute">View Institute by course</string>
+
+    <string-array name="courses">
+        <item>Select Courses</item>
+        <item>Diploma</item>
+        <item>Engineering</item>
+        <item>MCA</item>
+        <item>BCA</item>
+    </string-array>
+
+    <string-array name="process">
+        <item>Select Process</item>
+        <item>FC</item>
+        <item>ARC</item>
+    </string-array>
+
+    <string-array name="time_slot">
+        <item>Select Time Slot</item>
+        <item>09:00 am - 10:00 am</item>
+        <item>10:00 am - 11:00 am</item>
+        <item>11:00 am - 12:00 am</item>
+        <item>12:00 pm - 01:00 pm</item>
+        <item>02:00 pm - 03:00 pm</item>
+        <item>03:00 pm - 04:00 pm</item>
+        <item>04:00 pm - 05:00 pm</item>
+
+    </string-array>
+
+    <string-array name="streams">
+        <item>Select Stream</item>
+        <item>Diploma</item>
+        <item>Engineering</item>
+        <item>MCA</item>
+        <item>BCA</item>
+    </string-array>
+
+    <string name="col1">StartDate</string>
+    <string name="col2">EndDate</string>
+    <string name="col3">Course</string>
+    <string name="col4">Edit</string>
+    <string name="col5">Delete</string>
+    <string name="rowdate1">18-4-2021</string>
+    <string name="rowdate2">28-4-2021</string>
+    <string name="rowcourse3">Engineering</string>
+    <string name="rowedit4">Edit</string>
+    <string name="rowdel5">Delete</string>
+    <string name="row1date1">15-6-2021</string>
+    <string name="row1date2">25-6-2021</string>
+    <string name="row1course3">Diploma</string>
+    <string name="row1edit4">Edit</string>
+    <string name="row1del5">Delete</string>
+
+
+    <string name="colm1">Name</string>
+    <string name="colm2">Address</string>
+    <string name="colm3">Institute Name</string>
+    <string name="colm4">Username</string>
+    <string name="colm5">Email</string>
+    <string name="col6">Status</string>
+    <string name="rowname1">Ashish Shankar Renuse</string>
+    <string name="rowaddress2">Pune</string>
+    <string name="rowinstname3">Goverment Polytechnic Pune</string>
+    <string name="rowusername4">Ashish29</string>
+    <string name="rowemail5">ashishrenuse29@gmail.com</string>
+    <string name="Serial_no">Sr.No.</string>
+    <string name="uid">UID</string>
+    <string name="uid_num">1234 4567 6789</string>
+    <string name="btn_accept">Accept</string>
+    <string name="btn_deny">Deny</string>
+
+
+    <string name="column1">Sr.No</string>
+    <string name="column2">Institute Name</string>
+    <string name="column3">Address</string>
+    <string name="column4">Contact</string>
+    <string name="column5">Course Name</string>
+    <string name="rowinstname">Goverment Polytechnic Pune</string>
+    <string name="rowaddress">Ganesh Khind road,Pune</string>
+    <string name="rowcontact">gppune@gmail.com</string>
+    <string name="rowcourse">Engineering</string>
+    <string name="heading">Institute View By Course</string>
+    <string name="title_activity_ad_main">AdMainActivity</string>
+
+    <string name="ad_menu_home">Home</string>
+    <string name="Welcome">Welcome Admin</string>
+    <string name="menu_registration">Registration</string>
+    <string name="menu_FC_Day">FC Day</string>
+    <string name="menu_applied_FC">My Applied Fc</string>
+    <string name="multiline_text">This activity will have all the necessary information that is necessary to the admin to work with this application and to apply for registration of FC and to know how many students have applied for your instutite. The admin can also watch the schedule and time .This activity will have all the necessary information that is necessary to the admin to work with this application and to apply for registration of FC and to know how many students have applied for your instutite. The admin can also watch the schedule and time</string>
+    <string name="mainwelfrag">Welcome to Appointment Scheduler for FC/ARC \n
+Slide right to login or register\n\n
+
+If you are a student,\n
+1) Complete your registration by clicking on Student Register option and fill the details.\n
+2) Once you have been succesfully registered, click on Login option and fill the details to login and book/view your appointment for FC/ARC verification.\n\n
+
+If you are a admin,\n
+1) Complete your registration by clicking on Admin Register option and fill the details.\n
+2) Once you have Once you have been succesfully registered, click on Login option and fill the details to login.\n</string>
+
+    <string name="supwelfrag">
+        Welcome Super admin\n
+        Slide right for options:\n\n
+        <b>Create Schedule</b> : Create a schedule for FC/ARC verification\n\n
+        <b>View Schedule</b> : View schedule\n\n
+        <b>Admins Requests</b> : Manage Admins\n\n
+        <b>All Institutes</b>: View all institutes\n\n
+        <b>FC/ARC Requests</b> : Manage FC/ARC centers\n\n
+        <b>All Centers</b> : View FC/ARC centers\n\n</string>
+
+    <string name="ad_frag"><big><b>Welcome Admin</b></big>\n <big><b>You can represent one institute which can be allocated as a FC/ARC verification center.</b></big>\n <big><b>You can also manage the student\'s appointments</b></big>\n\n <b>Apply for FC/ARC</b> : Apply for FC/ARC verification center which will be approved by super admin\n\n <b>My Applied FC/ARC</b> : View applied FC/ARC \n\n <b>FC/ARC Day</b> : List of appointments of students applied for FC/ARC verification \n\n</string>
+    <string name="ad_hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="adcol1">Start date</string>
+    <string name="adcol2">End date</string>
+    <string name="adcol3">Course</string>
+    <string name="adcol4">Application</string>
+
+    <string name="start">01/06/2022</string>
+    <string name="end">30/06/2022</string>
+    <string name="course">Diploma</string>
+    <string name="application">Accepted</string>
+
+    <string name="c1">Application Id</string>
+    <string name="c2">Name</string>
+    <string name="c3">Course</string>
+    <string name="c4">Attendance</string>
+
+    <string name="app">18017262</string>
+    <string name="name">Shlok Dhananjay Das</string>
+
+    <string name="Book_Appointment">Click <a href="#">here</a> to Book Appointment</string>
+
+    <string name="spin_prompt">Choose a College</string>
+    <string-array name="clg_name">
+        <item>Pune</item>
+        <item>Mumbai</item>
+        <item>Nagpur</item>
+        <item>Thane</item>
+        <item>Nashik</item>
+        <item>Akola</item>
+        <item>Solapur</item>
+        <item>Jalgaon</item>
+    </string-array>
+
+    <string-array name="dates">
+        <item>Select Dates</item>
+        <item>06/09/2021</item>
+        <item>07/09/2021</item>
+        <item>08/09/2021</item>
+    </string-array>
+
+    <string name="title_activity_admin_main_draw">AdminMainDraw</string>
+</resources>

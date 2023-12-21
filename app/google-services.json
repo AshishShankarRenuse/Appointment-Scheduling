@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "388399154206",
+    "firebase_url": "https://appointmentscheduler-bb04c-default-rtdb.firebaseio.com",
+    "project_id": "appointmentscheduler-bb04c",
+    "storage_bucket": "appointmentscheduler-bb04c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388399154206:android:e9cc958888f43d37fb9a0f",
+        "android_client_info": {
+          "package_name": "com.example.appointmentscheduling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388399154206-7uus5e5j6e2uq9231ht7f4eni2gmegm1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYMGcUbH_HigLiCH1guSwPLAL_WxGkXKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388399154206-7uus5e5j6e2uq9231ht7f4eni2gmegm1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388399154206:android:d7179cb94c058515fb9a0f",
+        "android_client_info": {
+          "package_name": "com.example.studentregisterfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388399154206-7uus5e5j6e2uq9231ht7f4eni2gmegm1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYMGcUbH_HigLiCH1guSwPLAL_WxGkXKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388399154206-7uus5e5j6e2uq9231ht7f4eni2gmegm1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

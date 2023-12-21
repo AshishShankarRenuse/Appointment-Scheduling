@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ad_mobile_navigation"
+    app:startDestination="@+id/ad_nav_home">
+
+    <fragment
+        android:id="@+id/ad_nav_home"
+        android:name="com.example.appointmentscheduling.admin.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/admin_home_fragment" />
+    <fragment
+        android:id="@+id/ad_nav_fc_day"
+        android:name="com.example.appointmentscheduling.admin.FCDayFragment"
+        android:label="FC/ARC Day"
+        tools:layout="@layout/admin_fc_day_fragment" />
+    <fragment
+        android:id="@+id/ad_nav_apply_fc"
+        android:name="com.example.appointmentscheduling.admin.AdApplyForFc"
+        android:label="Apply for FC/ARC"
+        tools:layout="@layout/admin_apply_for_fc_fragment" />
+    <fragment
+        android:id="@+id/ad_nav_applied_fc"
+        android:name="com.example.appointmentscheduling.admin.AdminMyAppliedFc"
+        android:label="My Applied FC/ARC"
+        tools:layout="@layout/admin_my_applied_fc_fragment" />
+
+</navigation>

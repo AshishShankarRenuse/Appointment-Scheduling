@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".superAdmin.CreateSchedule">
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spinnerProcess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/process"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="-90dp"
+        android:padding="15dp"
+        android:layout_marginBottom="14dp"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:drawableTint="@color/black"/>
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spinnerCourses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-0dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="14dp"
+        android:drawableTint="@color/black"
+        android:entries="@array/courses"
+        android:padding="15dp"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/dateFirst"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:padding="15dp"
+        android:drawableRight="@drawable/ic_calendar"
+        android:drawableTint="@color/black"
+        android:text="Start Schedule Date"
+        android:fontFamily="@font/tienne_bold"/>
+
+    <TextView
+        android:id="@+id/dateSecond"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:padding="15dp"
+        android:drawableRight="@drawable/ic_calendar"
+        android:drawableTint="@color/black"
+        android:text="End Schedule Date"
+        android:fontFamily="@font/tienne_bold"/>
+
+    <Button
+        android:id="@+id/create_schedule_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Create Schedule"
+        android:fontFamily="@font/tienne_bold"/>
+</LinearLayout>
